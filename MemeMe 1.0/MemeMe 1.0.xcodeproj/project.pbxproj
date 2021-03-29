@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B19A386A260D1788005F756E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A3869260D1788005F756E /* AppDelegate.swift */; };
 		B19A386C260D1788005F756E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A386B260D1788005F756E /* SceneDelegate.swift */; };
-		B19A386E260D1788005F756E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A386D260D1788005F756E /* ViewController.swift */; };
+		B19A386E260D1788005F756E /* MemeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A386D260D1788005F756E /* MemeEditorViewController.swift */; };
 		B19A3871260D1788005F756E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19A386F260D1788005F756E /* Main.storyboard */; };
 		B19A3873260D178B005F756E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19A3872260D178B005F756E /* Assets.xcassets */; };
 		B19A3876260D178B005F756E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19A3874260D178B005F756E /* LaunchScreen.storyboard */; };
+		B19A388426124746005F756E /* memeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A388326124746005F756E /* memeModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B19A3866260D1788005F756E /* MemeMe 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemeMe 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19A3869260D1788005F756E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B19A386B260D1788005F756E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B19A386D260D1788005F756E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B19A386D260D1788005F756E /* MemeEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditorViewController.swift; sourceTree = "<group>"; };
 		B19A3870260D1788005F756E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B19A3872260D178B005F756E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B19A3875260D178B005F756E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B19A3877260D178B005F756E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19A388326124746005F756E /* memeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memeModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				B19A3869260D1788005F756E /* AppDelegate.swift */,
 				B19A386B260D1788005F756E /* SceneDelegate.swift */,
-				B19A386D260D1788005F756E /* ViewController.swift */,
+				B19A386D260D1788005F756E /* MemeEditorViewController.swift */,
 				B19A386F260D1788005F756E /* Main.storyboard */,
 				B19A3872260D178B005F756E /* Assets.xcassets */,
 				B19A3874260D178B005F756E /* LaunchScreen.storyboard */,
 				B19A3877260D178B005F756E /* Info.plist */,
+				B19A388326124746005F756E /* memeModal.swift */,
 			);
 			path = "MemeMe 1.0";
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B19A386E260D1788005F756E /* ViewController.swift in Sources */,
+				B19A386E260D1788005F756E /* MemeEditorViewController.swift in Sources */,
 				B19A386A260D1788005F756E /* AppDelegate.swift in Sources */,
 				B19A386C260D1788005F756E /* SceneDelegate.swift in Sources */,
+				B19A388426124746005F756E /* memeModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

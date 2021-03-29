@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Meme Editor View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MemeMe_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MemeEditorViewController" customModule="MemeMe_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,11 @@
                                                 <action selector="share:" destination="BYZ-38-t0r" id="xMG-oz-hOc"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="wge-1Y-Kf7" userLabel="cancelButton"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="wge-1Y-Kf7" userLabel="cancelButton">
+                                            <connections>
+                                                <action selector="cancelButtonAction:" destination="BYZ-38-t0r" id="7Ee-fV-KZI"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -47,7 +51,7 @@
                                     <barButtonItem width="107" style="plain" systemItem="fixedSpace" id="oww-kD-bOW"/>
                                     <barButtonItem title="Album" width="258" id="nT7-Uu-JRf" userLabel="albumButton">
                                         <connections>
-                                            <action selector="pickAnImage:" destination="BYZ-38-t0r" id="Puz-hx-q1n"/>
+                                            <action selector="pickAnImageFromAlbum:" destination="BYZ-38-t0r" id="nus-jX-ZNF"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem width="75" style="plain" systemItem="fixedSpace" id="i5D-vX-EAk"/>
@@ -98,6 +102,7 @@
                     <connections>
                         <outlet property="bottomTextField" destination="w75-Kh-uEd" id="gSi-gd-Im2"/>
                         <outlet property="camButton" destination="RcH-DA-9cm" id="x2r-3y-YTf"/>
+                        <outlet property="cancelButton" destination="wge-1Y-Kf7" id="CXi-p6-4X8"/>
                         <outlet property="imagePickerView" destination="p8w-oP-jyN" id="g9k-EX-dJU"/>
                         <outlet property="navBar" destination="IpH-R9-MSY" id="lRH-aQ-mn9"/>
                         <outlet property="shareButton" destination="36E-cc-c4j" id="P8T-3w-2Od"/>
