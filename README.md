@@ -7,8 +7,8 @@ This first version of MemeMe app that enables a user to take a picture, and add 
   <li>Creating an application allowing to personalize and share Memes</li>
   <li>Adding personalized text.</li>
   <li>Sharing Memes via SMS, e-mail, social media</li>
-  <li>View saved Memes as a list.</li>
-  <li>Delete saved Memes in your list.</li>
+ <!-- <li>View saved Memes as a list.</li>
+  <li>Delete saved Memes in your list.</li> -->
   <li>MemeMe covers many of the major UI components found in essentially every app.</li>
 </ul>
 
