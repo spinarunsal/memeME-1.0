@@ -19,3 +19,4 @@ This first version of MemeMe app that enables a user to take a picture, and add 
   <li>UIActivityViewController to share media with Facebook, Twitter, SMS, and Email</li>
   <li>Describe the delegate pattern and give a full account of its importance and uses in iOS classes</li>
 </ul>
+![alt text](https://github.com/[spinarunsal]/[memeME-1.0]/blob/memeME_1image.jpg?raw=true)
