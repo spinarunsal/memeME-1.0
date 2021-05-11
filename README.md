@@ -20,4 +20,6 @@ This first version of MemeMe app that enables a user to take a picture, and add 
   <li>Describe the delegate pattern and give a full account of its importance and uses in iOS classes</li>
 </ul>
 
-![memeME_1](https://user-images.githubusercontent.com/11559134/112868263-8720de00-90c4-11eb-83c2-95bda0715c50.jpeg)
+
+
+<img src="MemeMe%201.0/images/memeME_1.jpeg" width="300">
